@@ -1,40 +1,51 @@
-## Introduction
+# Express TypeScript Starter
 
-This repo is a **barebone minimalistic** starter-kit for TypeScript-based ExpressJS (https://expressjs.com/) app.
+A starter project for building web applications using Express and TypeScript.
 
-## Simplicity
+## Features
 
-In order to build and run the app, you have to execute only 2 NPM script commands.
+- **TypeScript**: Provides static typing for JavaScript, enhancing developer productivity and code quality.
+- **Express**: A minimal and flexible Node.js web application framework.
 
-## Dependencies
+## Project Structure
 
-* ExpressJS
-* ExpressJS Middlewares
-    * Compression - https://github.com/expressjs/compression
-    * Helmet - https://helmetjs.github.io/
-* TypeScript
-* NPM (or) Yarn
+- `src/`: Contains the source code for the application.
+  - `app.ts`: Main application file.
+  - `server.ts`: Server configuration and initialization.
+- `tsconfig.json`: TypeScript configuration file.
+- `.gitignore`: Specifies files and directories that should be ignored by Git.
+- `LICENSE`: License information for the project.
+- `package.json`: Lists the project's dependencies and scripts.
+- `package-lock.json`: Locks the versions of the project's dependencies.
 
-## Install, Build, Run
+## Getting Started
 
-Install node package dependencies:
+1. Clone the repository:
 
-`$ npm install`
+   ```
+   git clone https://github.com/Richard-S16/express-ts-starter.git
+   ```
 
-Build:
+2. Navigate to the project directory:
 
-`$ npm run build`
+   ```
+   cd express-ts-starter
+   ```
 
-Run ExpressJS server:
+3. Install the dependencies:
 
-`$ npm start`
+   ```
+   npm install
+   ```
 
-## Recommendation
+4. Start the development server:
 
-Keep all TypeScript source files in the `src` folder.
+   ```
+   npm run dev
+   ```
 
-## Future Goals
+5. Visit `http://localhost:3000` in your browser to view the application.
 
-* Add more sample code like Routes, Controllers, and Views
-* Add Webpack
-* Add unit-test sample code for Jest
+## License
+
+This project is a Fork of https://github.com/soelinn/express-ts-starter.
